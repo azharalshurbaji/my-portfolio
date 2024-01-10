@@ -11,7 +11,8 @@
                 </span>
             </div>
             <div v-for="uiuxItem in uiuxItems" :key="uiuxItem" class="col">
-                <div class="card bg-card shadow-sm-3 p-3"><img :src="uiuxItem.image" alt="ui-img" class="rounded img-thumbnail">
+                <div class="card bg-card shadow-sm-3 p-3">
+                    <img :src="uiuxItem.image" loading="lazy" alt="ui-img" class="rounded img-thumbnail">
                     <div class="card-body">
                         <p class="card-text h6 text-start text-white">
                             {{ uiuxItem.nameProject }}

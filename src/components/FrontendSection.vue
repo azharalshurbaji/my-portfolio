@@ -12,7 +12,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5">
             <div class="col" v-for="project in projects" :key="project">
                 <div class="card shadow-sm-3 p-3 card-container card-hover">
-                    <img :src="project.image" class="rounded img-thumbnail" alt="img">
+                    <img :src="project.image" loading="lazy" class="rounded img-thumbnail" alt="img">
                     <div class="card-body">
                         <p class="card-text h6 text-start">
                             {{ project.projectName }}
@@ -43,7 +43,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5">
             <div class="col" v-for="drawing in drawings" :key="drawing">
                 <div class="card shadow-sm-3 p-3 card-container card-hover">
-                    <img :src="drawing.image" class="rounded img-thumbnail" alt="img">
+                    <img :src="drawing.image" loading="lazy" class="rounded img-thumbnail" alt="img">
                     <div class="card-body">
                         <p class="card-text h6 text-start">
                             {{ drawing.drawingName }}

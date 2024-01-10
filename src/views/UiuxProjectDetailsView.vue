@@ -2,16 +2,16 @@
     <div id="carouselExampleAutoplaying" class="carousel slide pt-5" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img :src="uiuxDetails.carouselItems[0]" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+                <img :src="uiuxDetails.carouselItems[0]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
             </div>
             <div class="carousel-item">
-                <img :src="uiuxDetails.carouselItems[1]" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+                <img :src="uiuxDetails.carouselItems[1]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
             </div>
             <div class="carousel-item">
-                <img :src="uiuxDetails.carouselItems[2]" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+                <img :src="uiuxDetails.carouselItems[2]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
             </div>
             <div class="carousel-item">
-                <img :src="uiuxDetails.carouselItems[3]" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+                <img :src="uiuxDetails.carouselItems[3]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
             </div>
         </div>
         <button class="carousel-control-prev me-auto" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
