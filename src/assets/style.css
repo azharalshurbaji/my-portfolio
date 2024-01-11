@@ -114,12 +114,12 @@ html {
 
 /*? Start UI / UX Section */
 .carousel-img-size {
-    width: 50%;
+    width: 80%;
 }
 .box {
-    width: 110px;
+    width: 100px;
     height: 100px;
-    box-shadow: 0 0 8px #c4c4c4;
+    /* box-shadow: 0 0 8px #c4c4c4; */
     border-radius: 5px;
     text-align: center;
     line-height: 100px;
@@ -150,5 +150,9 @@ html {
     }
     .hero-section-items {
         text-align: center;
+    }
+    .box{
+        width: 80px;
+        height: 80px;
     }
 }

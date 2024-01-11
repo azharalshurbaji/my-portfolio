@@ -1,15 +1,15 @@
 <template>
     <div class="container">
-        <div class="row">
-            <div class="title my-5 text-center">
-                <span class="fs-4">
-                    ..☆*: .｡. o.
-                    <span class="fs-1 fw-bold">
-                        My Projects
-                    </span>
-                    .o .｡.:*☆..
+        <div class="title my-5 text-center">
+            <span class="fs-4">
+                ..☆*: .｡. o.
+                <span class="fs-1 fw-bold">
+                    My Projects
                 </span>
-            </div>
+                .o .｡.:*☆..
+            </span>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5">
             <div v-for="uiuxItem in uiuxItems" :key="uiuxItem" class="col">
                 <div class="card bg-card shadow-sm-3 p-3">
                     <img :src="uiuxItem.image" loading="lazy" alt="ui-img" class="rounded img-thumbnail">
@@ -77,12 +77,12 @@ export default {
                 id: 1,
                 image: m2,
                 nameProject: "CupCake Store Application",
-                "carouselItems": {
+                carouselItems: [
                     m1,
                     s1,
                     s2,
-                    m2
-                },
+                    m2,
+                ],
                 colors: [
                     mp1,
                     mp2,

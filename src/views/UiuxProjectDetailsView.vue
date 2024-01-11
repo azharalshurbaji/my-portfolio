@@ -1,31 +1,37 @@
 <template>
-    <div id="carouselExampleAutoplaying" class="carousel slide pt-5" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img :src="uiuxDetails.carouselItems[0]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
-            </div>
-            <div class="carousel-item">
-                <img :src="uiuxDetails.carouselItems[1]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
-            </div>
-            <div class="carousel-item">
-                <img :src="uiuxDetails.carouselItems[2]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
-            </div>
-            <div class="carousel-item">
-                <img :src="uiuxDetails.carouselItems[3]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleAutoplaying" class="carousel slide pt-5" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img :src="uiuxDetails.carouselItems[0]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+                        </div>
+                        <div class="carousel-item">
+                            <img :src="uiuxDetails.carouselItems[1]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+                        </div>
+                        <div class="carousel-item">
+                            <img :src="uiuxDetails.carouselItems[2]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+                        </div>
+                        <div class="carousel-item">
+                            <img :src="uiuxDetails.carouselItems[3]" loading="lazy" class="rounded img-thumbnail d-block m-auto carousel-img-size" alt="img-uiux">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev me-auto" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-black py-5 rounded-1" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next ms-auto" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-black py-5 rounded-1" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
-        <button class="carousel-control-prev me-auto" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-black py-5 rounded-1" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next ms-auto" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-black py-5 rounded-1" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
     <div class="container my-5">
         <div class="row">
-            <div class="col my-5">
+            <div class="col">
                 <span class="fs-3 fw-bold opacity-25">01</span>
                 <p class="fs-4 fw-semibold">Colors Palette</p>
                 <div class="border-bottom my-2"></div>
