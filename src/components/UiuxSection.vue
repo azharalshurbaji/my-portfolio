@@ -36,34 +36,49 @@ import uiuxItems from '../stores/uiuxItems';
 import { RouterLink } from 'vue-router';
 
 // cupcake Store
-import m1 from "../assets/img/img-uiux/m1.jpg"
-import s1 from "../assets/img/img-uiux/s1.jpg"
-import s2 from "../assets/img/img-uiux/s2.jpg"
-import m2 from "../assets/img/img-uiux/m2.jpg"
+import cupcake1 from "../assets/img/img-uiux/cupcake1.jpg"
+import cupcake2 from "../assets/img/img-uiux/cupcake2.jpg"
+import cupcake3 from "../assets/img/img-uiux/cupcake3.jpg"
+import cupcakeWeb from "../assets/img/img-uiux/cupcakeWeb.jpg"
 // Palette Color
-import mp1 from "../assets/img/img-uiux/mp1.jpg"
-import mp2 from "../assets/img/img-uiux/mp2.jpg"
-import mp3 from "../assets/img/img-uiux/mp3.jpg"
+import cupcakeColor1 from "../assets/img/img-uiux/cupcakeColor1.jpg"
+import cupcakeColor2 from "../assets/img/img-uiux/cupcakeColor2.jpg"
+import cupcakeColor3 from "../assets/img/img-uiux/cupcakeColor3.jpg"
 
 // Milk Store
-import ms1 from "../assets/img/img-uiux/milk-pro/ms1.jpg"
-import ms3 from "../assets/img/img-uiux/milk-pro/ms3.jpg"
-import ms4 from "../assets/img/img-uiux/milk-pro/ms4.jpg"
-import ms2 from "../assets/img/img-uiux/milk-pro/ms2.jpg"
+import milk1 from "../assets/img/img-uiux/milk-pro/milk1.jpg"
+import milk2 from "../assets/img/img-uiux/milk-pro/milk2.jpg"
+import milk3 from "../assets/img/img-uiux/milk-pro/milk3.jpg"
+import milk4 from "../assets/img/img-uiux/milk-pro/milk4.jpg"
 // Palette Color
-import msc1 from "../assets/img/img-uiux/milk-pro/msc1.jpg"
-import msc2 from "../assets/img/img-uiux/milk-pro/msc2.jpg"
-import msc3 from "../assets/img/img-uiux/milk-pro/msc3.jpg"
+import milkColor1 from "../assets/img/img-uiux/milk-pro/milkColor1.jpg"
+import milkColor2 from "../assets/img/img-uiux/milk-pro/milkColor2.jpg"
+import milkColor3 from "../assets/img/img-uiux/milk-pro/milkColor3.jpg"
 
 // Medic Application
-import c1 from "../assets/img/img-uiux/clinc-pro/c1.png"
-import c2 from "../assets/img/img-uiux/clinc-pro/c2.jpg"
-import c3 from "../assets/img/img-uiux/clinc-pro/c3.jpg"
-import c4 from "../assets/img/img-uiux/clinc-pro/c4.jpg"
+import medic1 from "../assets/img/img-uiux/clinc-pro/medic1.jpg"
+import medic2 from "../assets/img/img-uiux/clinc-pro/medic2.jpg"
+import medic3 from "../assets/img/img-uiux/clinc-pro/medic3.jpg"
+import medic4 from "../assets/img/img-uiux/clinc-pro/medic4.jpg"
 // Palette Color
-import cp1 from "../assets/img/img-uiux/clinc-pro/cp1.jpg"
-import cp2 from "../assets/img/img-uiux/clinc-pro/cp2.jpg"
-import cp3 from "../assets/img/img-uiux/clinc-pro/cp3.jpg"
+import medicColor1 from "../assets/img/img-uiux/clinc-pro/medicColor1.jpg"
+import medicColor2 from "../assets/img/img-uiux/clinc-pro/medicColor2.jpg"
+import medicColor3 from "../assets/img/img-uiux/clinc-pro/medicColor3.jpg"
+
+// Pizza Application
+import pizza1 from "../assets/img/img-uiux/pizza/pizza1.jpg"
+import pizza2 from "../assets/img/img-uiux/pizza/pizza2.jpg"
+import pizza3 from "../assets/img/img-uiux/pizza/pizza3.jpg"
+import pizzaWeb from "../assets/img/img-uiux/pizza/pizzaWeb.jpg"
+// pizza Web
+import pizzaWeb1 from "../assets/img/img-uiux/pizza/pizzaWeb1.jpg"
+import pizzaWeb2 from "../assets/img/img-uiux/pizza/pizzaWeb2.jpg"
+import pizzaWeb3 from "../assets/img/img-uiux/pizza/pizzaWeb3.jpg"
+import pizzaWeb4 from "../assets/img/img-uiux/pizza/pizzaWeb4.jpg"
+// Palette Color
+import colorPizza1 from "../assets/img/img-uiux/pizza/colorPizza1.jpg"
+import colorPizza2 from "../assets/img/img-uiux/pizza/colorPizza2.jpg"
+import colorPizza3 from "../assets/img/img-uiux/pizza/colorPizza3.jpg"
 
 export default {
 
@@ -75,18 +90,18 @@ export default {
         uiuxItems: [
             {
                 id: 1,
-                image: m2,
+                image: cupcake1,
                 nameProject: "CupCake Store Application",
                 carouselItems: [
-                    m1,
-                    s1,
-                    s2,
-                    m2,
+                    cupcake1,
+                    cupcake2,
+                    cupcake3,
+                    cupcakeWeb,
                 ],
                 colors: [
-                    mp1,
-                    mp2,
-                    mp3
+                    cupcakeColor1,
+                    cupcakeColor2,
+                    cupcakeColor3
                 ],
                 fontName: ["roboto"],
                 fontWeight: ["regular", "medium"],
@@ -102,18 +117,18 @@ export default {
             },
             {
                 id: 2,
-                image: ms2,
+                image: milk1,
                 nameProject: "Milk Store Application",
                 carouselItems: [
-                    ms1,
-                    ms3,
-                    ms4,
-                    ms2
+                    milk1,
+                    milk2,
+                    milk3,
+                    milk4,
                 ],
                 colors: [
-                    msc1,
-                    msc2,
-                    msc3
+                    milkColor1,
+                    milkColor2,
+                    milkColor3
                 ],
                 fontName: ["Lato"],
                 fontWeight: ["regular", "black"],
@@ -129,18 +144,18 @@ export default {
             },
             {
                 id: 3,
-                image: c2,
+                image: medic1,
                 nameProject: "Medic Application",
                 carouselItems: [
-                    c2,
-                    c3,
-                    c4,
-                    c1
+                    medic1,
+                    medic2,
+                    medic3,
+                    medic4,
                 ],
                 colors: [
-                    cp1,
-                    cp2,
-                    cp3
+                    medicColor1,
+                    medicColor2,
+                    medicColor3
                 ],
                 fontName: ["segoe ui"],
                 fontWeight: ["regular", "semiBold"],
@@ -153,7 +168,58 @@ export default {
                     "segoe Ui SemiBold 14pt",
                     "segoe Ui Italic 14pt"
                 ]
-            }
+            },
+            {
+                id: 4,
+                image: pizza1,
+                nameProject: "Pizza Store Application",
+                carouselItems: [
+                    pizza1,
+                    pizza2,
+                    pizza3,
+                    pizzaWeb,
+                ],
+                colors: [
+                    colorPizza1,
+                    colorPizza2,
+                    colorPizza3
+                ],
+                fontName: ["segoe ui"],
+                fontWeight: ["regular", "Bold"],
+                fontSize: [
+                    "segoe Ui Regular 32pt",
+                    "segoe Ui Bold 24pt",
+                    "segoe Ui Bold 20pt",
+                    "segoe Ui Bold 16pt",
+                    "segoe Ui Bold 14pt",
+                    
+                ]
+            },
+            {
+                id: 5,
+                image: pizzaWeb,
+                nameProject: "Pizza Store WebSite",
+                carouselItems: [
+                    pizzaWeb1,
+                    pizzaWeb2,
+                    pizzaWeb3,
+                    pizzaWeb4,
+                ],
+                colors: [
+                    colorPizza1,
+                    colorPizza2,
+                    colorPizza3
+                ],
+                fontName: ["segoe ui"],
+                fontWeight: ["regular", "Bold"],
+                fontSize: [
+                    "segoe Ui Regular 32pt",
+                    "segoe Ui Bold 24pt",
+                    "segoe Ui Bold 20pt",
+                    "segoe Ui Bold 16pt",
+                    "segoe Ui Bold 14pt",
+                ]
+            },
         ]
     }),
     // created() {
