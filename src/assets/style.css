@@ -60,10 +60,11 @@ html {
     /* height: 100vh; */
 }
 .main-text {
-    /* color: var(--primary-color); */
     font-size: 45px;
 }
-
+.fs-small {
+    font-size: 14px;
+}
 
 
 /* Front End Card Section */

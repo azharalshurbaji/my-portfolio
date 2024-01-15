@@ -113,7 +113,8 @@ export default {
                     "Roboto Regular 16pt",
                     "Roboto medium 14pt",
                     "Roboto Regular 14pt"
-                ]
+                ],
+            tools: ["Adobe XD"],
             },
             {
                 id: 2,
@@ -140,7 +141,8 @@ export default {
                     "sub title 14pt",
                     "sub title 11pt",
                     "sub title 8pt"
-                ]
+                ],
+            tools: ["Adobe XD"],
             },
             {
                 id: 3,
@@ -167,7 +169,8 @@ export default {
                     "segoe Ui Regular 16pt",
                     "segoe Ui SemiBold 14pt",
                     "segoe Ui Italic 14pt"
-                ]
+                ],
+            tools: ["Adobe XD"],
             },
             {
                 id: 4,
@@ -193,7 +196,8 @@ export default {
                     "segoe Ui Bold 16pt",
                     "segoe Ui Bold 14pt",
                     
-                ]
+                ],
+            tools: ["Adobe XD"],
             },
             {
                 id: 5,
@@ -210,15 +214,18 @@ export default {
                     colorPizza2,
                     colorPizza3
                 ],
-                fontName: ["segoe ui"],
+                fontName: ["inter"],
                 fontWeight: ["regular", "Bold"],
                 fontSize: [
-                    "segoe Ui Regular 32pt",
-                    "segoe Ui Bold 24pt",
-                    "segoe Ui Bold 20pt",
-                    "segoe Ui Bold 16pt",
-                    "segoe Ui Bold 14pt",
-                ]
+                    "inter Bold 48pt",
+                    "inter SemiBold 38pt",
+                    "inter light 24pt",
+                    "inter Bold 20pt",
+                    "inter medium 20pt",
+                    "inter light 16pt",
+                    "inter medium 14pt",
+                ],
+            tools: ["Adobe XD"],
             },
         ]
     }),

@@ -34,7 +34,7 @@
             <div class="col">
                 <span class="fs-3 fw-bold opacity-25">01</span>
                 <p class="fs-4 fw-semibold">Colors Palette</p>
-                <div class="border-bottom my-2"></div>
+                <div class="border-bottom my-2 opacity-25"></div>
                 <div class="color-palette-items d-flex flex-wrap justify-content-center align-items-center ">
                     <!-- .box$*5 -->
                     <!-- <div v-for="color in colors" :key="color" class="box m-auto ms-2 my-3">
@@ -55,9 +55,9 @@
             <div class="col mb-5">
                 <span class="fs-3 fw-bold opacity-25">02</span>
                 <p class="fs-4 fw-semibold">Typography</p>
-                <div class="border-bottom mb-2"></div>
+                <div class="border-bottom mb-2 opacity-25"></div>
                 <div class="m-auto d-flex">
-                    <div class="first-font-name pe-5 border-end">
+                    <div class="first-font-name pe-5 border-end ">
                         <p class="m-0 display-3">Aa</p>
                         <p class="m-0 fs-4 text-capitalize">{{ uiuxDetails.fontName[0] }}</p>
                     </div>
@@ -65,23 +65,29 @@
                         <p class="h5 text-capitalize">{{ uiuxDetails.fontWeight[0] }}</p>
                         <p class="h5 text-capitalize">{{ uiuxDetails.fontWeight[1] }}</p>
                     </div>
-                    <!-- <div class="vr"></div> -->
+                    
                 </div>
-                <div class="border-bottom mt-5"></div>
                 <div class="font-size mt-5">
                     <p class="text-capitalize fs-1">{{ uiuxDetails.fontSize[0] }}</p>
                     <p class="text-capitalize fs-2">{{ uiuxDetails.fontSize[1] }}</p>
                     <p class="text-capitalize fs-3">{{ uiuxDetails.fontSize[2] }}</p>
-                    <p class="text-capitalize fs-4">{{ uiuxDetails.fontSize[3] }}</p>
-                    <p class="text-capitalize fs-5">{{ uiuxDetails.fontSize[4] }}</p>
-                    <p class="text-capitalize fs-6">{{ uiuxDetails.fontSize[5] }}</p>
-                    <p class="text-capitalize ">{{ uiuxDetails.fontSize[6] }}</p>
+                    <p class="text-capitalize opacity-75 fs-4">{{ uiuxDetails.fontSize[3] }}</p>
+                    <p class="text-capitalize text-white-50 fs-5">{{ uiuxDetails.fontSize[4] }}</p>
+                    <p class="text-capitalize text-white-50 fs-6">{{ uiuxDetails.fontSize[5] }}</p>
+                    <p class="text-capitalize text-white-50 fs-small">{{ uiuxDetails.fontSize[6] }}</p>
                 </div>
-                <!-- 
-                <div class="second-font-name">
-                    <div class="display-3">Aa</div>
-                    <div class="">Segoe UI</div>
-                </div> -->
+            </div>
+            <!-- <div class="vr"></div> -->
+        </div>
+        <!-- <div class="border-bottom mb-4 bg-body"></div> -->
+        <div class="row">
+            <div class="col"> 
+                <span class="fs-3 fw-bold opacity-25">03</span>
+                <p class="fs-4 fw-semibold">Tools</p>
+                <div class="border-bottom mb-2 opacity-25"></div>
+                <div class="first-font-name">
+                    <p class="m-0 fs-4 text-capitalize">{{ uiuxDetails.tools[0] }}</p>
+                </div>
             </div>
         </div>
     </div>
