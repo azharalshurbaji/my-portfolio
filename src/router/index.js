@@ -32,7 +32,25 @@ const router = createRouter({
       name: 'uiux-project-details',
       component: () => import('../views/UiuxProjectDetailsView.vue')
     },
-  ]
+    {
+      path: '/uiux-video-details/:id',
+      name: 'uiux-video-details',
+      component: () => import('../views/uiuxVideoDetailsView.vue')
+    },
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    }
+    if(to.hash) {
+      return{
+        el: to.hash,
+        behavior: 'smoth'
+      }
+    }
+    // ? always scroll to top
+    return { top: 0}
+  }
 })
 
 export default router

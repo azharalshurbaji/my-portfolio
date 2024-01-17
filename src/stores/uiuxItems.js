@@ -13,5 +13,8 @@ export default defineStore ('uiuxItems' ,{
         showProjectDetails(uiuxItem) {
             this.uiuxDetails = uiuxItem;
         },
+        showProjectDetails(uiuxVideo) {
+            this.uiuxDetails = uiuxVideo;
+        },
     }
 })

@@ -24,7 +24,23 @@
                         show
                     </router-link>
                 </div>
-
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mb-5">
+            <div v-for="uiuxVideo in uiuxVideos" :key="uiuxVideo" class="col">
+                <div class="card bg-card shadow-sm-3 p-3">
+                    <img :src="uiuxVideo.image" loading="lazy" alt="ui-img" class="rounded img-thumbnail">
+                    <div class="card-body">
+                        <p class="card-text h6 text-start text-white">
+                            {{ uiuxVideo.nameProject }}
+                        </p>
+                    </div>
+                    <router-link class="btn btn-outline-info"
+                        :to="{ name: 'uiux-video-details', params: { id: uiuxVideo.id } }"
+                        @click="showProjectDetails(uiuxVideo)">
+                        show
+                    </router-link>
+                </div>
             </div>
         </div>
     </div>
@@ -69,7 +85,7 @@ import medicColor3 from "../assets/img/img-uiux/clinc-pro/medicColor3.jpg"
 import pizza1 from "../assets/img/img-uiux/pizza/pizza1.jpg"
 import pizza2 from "../assets/img/img-uiux/pizza/pizza2.jpg"
 import pizza3 from "../assets/img/img-uiux/pizza/pizza3.jpg"
-import pizzaWeb from "../assets/img/img-uiux/pizza/pizzaWeb.jpg"
+import pizzaWebb from "../assets/img/img-uiux/pizza/pizzaWebb.jpg"
 // pizza Web
 import pizzaWeb1 from "../assets/img/img-uiux/pizza/pizzaWeb1.jpg"
 import pizzaWeb2 from "../assets/img/img-uiux/pizza/pizzaWeb2.jpg"
@@ -79,6 +95,12 @@ import pizzaWeb4 from "../assets/img/img-uiux/pizza/pizzaWeb4.jpg"
 import colorPizza1 from "../assets/img/img-uiux/pizza/colorPizza1.jpg"
 import colorPizza2 from "../assets/img/img-uiux/pizza/colorPizza2.jpg"
 import colorPizza3 from "../assets/img/img-uiux/pizza/colorPizza3.jpg"
+
+// Abstract Design
+import abstractDesign from "../assets/img/img-uiux/abstractDesign/abstractDesign.jpg"
+import abstractDesignV from "../assets/img/img-uiux/abstractDesign/abstractDesignV.mp4"
+import darkMode from "../assets/img/img-uiux/switch/darkMode.jpg"
+import darkModeV from "../assets/img/img-uiux/switch/darkModeV.mp4"
 
 export default {
 
@@ -114,7 +136,7 @@ export default {
                     "Roboto medium 14pt",
                     "Roboto Regular 14pt"
                 ],
-            tools: ["Adobe XD"],
+                tools: ["Adobe XD"],
             },
             {
                 id: 2,
@@ -142,7 +164,7 @@ export default {
                     "sub title 11pt",
                     "sub title 8pt"
                 ],
-            tools: ["Adobe XD"],
+                tools: ["Adobe XD"],
             },
             {
                 id: 3,
@@ -170,7 +192,7 @@ export default {
                     "segoe Ui SemiBold 14pt",
                     "segoe Ui Italic 14pt"
                 ],
-            tools: ["Adobe XD"],
+                tools: ["Adobe XD"],
             },
             {
                 id: 4,
@@ -180,7 +202,7 @@ export default {
                     pizza1,
                     pizza2,
                     pizza3,
-                    pizzaWeb,
+                    pizzaWebb,
                 ],
                 colors: [
                     colorPizza1,
@@ -197,11 +219,11 @@ export default {
                     "segoe Ui Bold 14pt",
                     
                 ],
-            tools: ["Adobe XD"],
+                tools: ["Adobe XD"],
             },
             {
                 id: 5,
-                image: pizzaWeb,
+                image: pizzaWebb,
                 nameProject: "Pizza Store WebSite",
                 carouselItems: [
                     pizzaWeb1,
@@ -225,9 +247,25 @@ export default {
                     "inter light 16pt",
                     "inter medium 14pt",
                 ],
-            tools: ["Adobe XD"],
+                tools: ["Adobe XD"],
             },
-        ]
+        ],
+        uiuxVideos: [
+            {
+                id: '1v',
+                image: abstractDesign,
+                nameProject: "Abstract Design",
+                tools: ["Adobe XD"],
+                video: abstractDesignV,
+            },
+            {
+                id: '2v',
+                image: darkMode,
+                nameProject: "Switch Dark Mode and Counter Button",
+                tools: ["Adobe XD"],
+                video: darkModeV,
+            },
+        ],
     }),
     // created() {
     //     this.loadUiuxItems();
