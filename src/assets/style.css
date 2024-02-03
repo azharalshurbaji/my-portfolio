@@ -113,6 +113,7 @@ html {
 }
 /* End Front End Card Section */
 
+
 /*? Start UI / UX Section */
 .carousel-img-size {
     width: 80%;
@@ -128,6 +129,9 @@ html {
 }
 .bg-card {
     background-color: var(--primary-color) !important;
+}
+.color-font-tools {
+    color: #aaaaaa;
 }
 /* End UI / UX Section */
 /* .card-container {

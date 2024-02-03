@@ -96,6 +96,16 @@ import colorPizza1 from "../assets/img/img-uiux/pizza/colorPizza1.jpg"
 import colorPizza2 from "../assets/img/img-uiux/pizza/colorPizza2.jpg"
 import colorPizza3 from "../assets/img/img-uiux/pizza/colorPizza3.jpg"
 
+// share photo
+import photoShare1 from "../assets/img/img-uiux/photo-share/photoShare1.jpg"
+import photoShare2 from "../assets/img/img-uiux/photo-share/photoShare2.jpg"
+import photoShare3 from "../assets/img/img-uiux/photo-share/photoShare3.jpg"
+import photoShare4 from "../assets/img/img-uiux/photo-share/photoShare4.jpg"
+// Palette Color
+import colorPhoto1 from "../assets/img/img-uiux/photo-share/colorPhoto1.jpg"
+import colorPhoto2 from "../assets/img/img-uiux/photo-share/colorPhoto2.jpg"
+import colorPhoto3 from "../assets/img/img-uiux/photo-share/colorPhoto3.jpg"
+
 // Abstract Design
 import abstractDesign from "../assets/img/img-uiux/abstractDesign/abstractDesign.jpg"
 import abstractDesignV from "../assets/img/img-uiux/abstractDesign/abstractDesignV.mp4"
@@ -112,34 +122,6 @@ export default {
         uiuxItems: [
             {
                 id: 1,
-                image: cupcake1,
-                nameProject: "CupCake Store Application",
-                carouselItems: [
-                    cupcake1,
-                    cupcake2,
-                    cupcake3,
-                    cupcakeWeb,
-                ],
-                colors: [
-                    cupcakeColor1,
-                    cupcakeColor2,
-                    cupcakeColor3
-                ],
-                fontName: ["roboto"],
-                fontWeight: ["regular", "medium"],
-                fontSize: [
-                    "Roboto Medium 34pt",
-                    "Roboto Regular 28pt",
-                    "Roboto medium 18pt",
-                    "Roboto medium 16pt",
-                    "Roboto Regular 16pt",
-                    "Roboto medium 14pt",
-                    "Roboto Regular 14pt"
-                ],
-                tools: ["Adobe XD"],
-            },
-            {
-                id: 2,
                 image: milk1,
                 nameProject: "Milk Store Application",
                 carouselItems: [
@@ -153,6 +135,7 @@ export default {
                     milkColor2,
                     milkColor3
                 ],
+                tools: ["Adobe XD", "Adobe Photoshop & Adobe illustrator"],
                 fontName: ["Lato"],
                 fontWeight: ["regular", "black"],
                 fontSize: [
@@ -164,7 +147,34 @@ export default {
                     "sub title 11pt",
                     "sub title 8pt"
                 ],
-                tools: ["Adobe XD"],
+            },
+            {
+                id: 2,
+                image: cupcake1,
+                nameProject: "CupCake Store Application",
+                carouselItems: [
+                    cupcake1,
+                    cupcake2,
+                    cupcake3,
+                    cupcakeWeb,
+                ],
+                colors: [
+                    cupcakeColor1,
+                    cupcakeColor2,
+                    cupcakeColor3
+                ],
+                tools: ["Adobe XD", "Adobe Photoshop"],
+                fontName: ["roboto"],
+                fontWeight: ["regular", "medium"],
+                fontSize: [
+                    "Roboto Medium 34pt",
+                    "Roboto Regular 28pt",
+                    "Roboto medium 18pt",
+                    "Roboto medium 16pt",
+                    "Roboto Regular 16pt",
+                    "Roboto medium 14pt",
+                    "Roboto Regular 14pt"
+                ],
             },
             {
                 id: 3,
@@ -181,6 +191,7 @@ export default {
                     medicColor2,
                     medicColor3
                 ],
+                tools: ["Adobe XD", "Adobe Photoshop"],
                 fontName: ["segoe ui"],
                 fontWeight: ["regular", "semiBold"],
                 fontSize: [
@@ -192,7 +203,6 @@ export default {
                     "segoe Ui SemiBold 14pt",
                     "segoe Ui Italic 14pt"
                 ],
-                tools: ["Adobe XD"],
             },
             {
                 id: 4,
@@ -209,6 +219,7 @@ export default {
                     colorPizza2,
                     colorPizza3
                 ],
+                tools: ["Adobe XD", "Adobe Photoshop"],
                 fontName: ["segoe ui"],
                 fontWeight: ["regular", "Bold"],
                 fontSize: [
@@ -219,7 +230,6 @@ export default {
                     "segoe Ui Bold 14pt",
                     
                 ],
-                tools: ["Adobe XD"],
             },
             {
                 id: 5,
@@ -236,18 +246,45 @@ export default {
                     colorPizza2,
                     colorPizza3
                 ],
+                tools: ["Adobe XD", "Adobe Photoshop"],
                 fontName: ["inter"],
                 fontWeight: ["regular", "Bold"],
                 fontSize: [
                     "inter Bold 48pt",
                     "inter SemiBold 38pt",
                     "inter light 24pt",
-                    "inter Bold 20pt",
                     "inter medium 20pt",
+                    "inter Bold 20pt",
                     "inter light 16pt",
                     "inter medium 14pt",
                 ],
-                tools: ["Adobe XD"],
+            },
+            {
+                id: 6,
+                image: photoShare1,
+                nameProject: "Share Photo App",
+                carouselItems: [
+                    photoShare1,
+                    photoShare2,
+                    photoShare3,
+                    photoShare4,
+                ],
+                colors: [
+                    colorPhoto1,
+                    colorPhoto2,
+                    colorPhoto3,
+                ],
+                tools: ["Adobe XD", "Adobe Photoshop"],
+                fontName: ["segoe Ui"],
+                fontWeight: ["regular", "SemiBold"],
+                fontSize: [
+                    "segoe Ui Black 64pt",
+                    "segoe Ui Semibold 24pt",
+                    "segoe Ui regular 18pt",
+                    "segoe Ui regular 16pt",
+                    "segoe Ui regular 14pt",
+                    "segoe Ui regular 12pt",
+                ],
             },
         ],
         uiuxVideos: [
@@ -255,15 +292,15 @@ export default {
                 id: '1v',
                 image: abstractDesign,
                 nameProject: "Abstract Design",
-                tools: ["Adobe XD"],
                 video: abstractDesignV,
+                tools: ["Adobe XD"]
             },
             {
                 id: '2v',
                 image: darkMode,
                 nameProject: "Switch Dark Mode and Counter Button",
-                tools: ["Adobe XD"],
                 video: darkModeV,
+                tools: ["Adobe XD"]
             },
         ],
     }),

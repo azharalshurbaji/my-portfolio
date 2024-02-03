@@ -33,7 +33,7 @@
         <div class="row">
             <div class="col">
                 <span class="fs-3 fw-bold opacity-25">01</span>
-                <p class="fs-4 fw-semibold">Colors Palette</p>
+                <p class="fs-4 fw-semibold color-font-tools">Colors Palette</p>
                 <div class="border-bottom my-2 opacity-25"></div>
                 <div class="color-palette-items d-flex flex-wrap justify-content-center align-items-center ">
                     <!-- .box$*5 -->
@@ -41,9 +41,9 @@
                         {{ color.codeColor }}
                     </div> -->
                     <div class="d-flex flex-wrap ">
-                        <img :src="uiuxDetails.colors[0]" class="box ms-2 my-3">
-                        <img :src="uiuxDetails.colors[1]" class="box ms-2 my-3">
-                        <img :src="uiuxDetails.colors[2]" class="box ms-2 my-3">
+                        <img :src="uiuxDetails.colors[0]" class="box shadow-lg ms-2 my-3">
+                        <img :src="uiuxDetails.colors[1]" class="box shadow-lg ms-2 my-3">
+                        <img :src="uiuxDetails.colors[2]" class="box shadow-lg ms-2 my-3">
                     </div>
                     
                     <!-- <div class="vstack"></div> -->
@@ -52,9 +52,20 @@
             </div>
         </div>
         <div class="row">
-            <div class="col mb-5">
+            <div class="col"> 
                 <span class="fs-3 fw-bold opacity-25">02</span>
-                <p class="fs-4 fw-semibold">Typography</p>
+                <p class="fs-4 fw-semibold color-font-tools">Tools</p>
+                <div class="border-bottom mb-2 opacity-25"></div>
+                <div class="first-font-name">
+                    <p class="m-0 fs-4 text-capitalize">{{ uiuxDetails.tools[0] }}</p>
+                    <p class="m-0 fs-4 text-capitalize">{{ uiuxDetails.tools[1] }}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col my-5">
+                <span class="fs-3 fw-bold opacity-25">03</span>
+                <p class="fs-4 fw-semibold color-font-tools">Typography</p>
                 <div class="border-bottom mb-2 opacity-25"></div>
                 <div class="m-auto d-flex">
                     <div class="first-font-name pe-5 border-end ">
@@ -80,16 +91,7 @@
             <!-- <div class="vr"></div> -->
         </div>
         <!-- <div class="border-bottom mb-4 bg-body"></div> -->
-        <div class="row">
-            <div class="col"> 
-                <span class="fs-3 fw-bold opacity-25">03</span>
-                <p class="fs-4 fw-semibold">Tools</p>
-                <div class="border-bottom mb-2 opacity-25"></div>
-                <div class="first-font-name">
-                    <p class="m-0 fs-4 text-capitalize">{{ uiuxDetails.tools[0] }}</p>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </template>
 

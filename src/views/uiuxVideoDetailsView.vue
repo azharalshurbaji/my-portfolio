@@ -3,14 +3,14 @@
         <div class="row">
             <div class="col mt-5">
                 <div class="text-center object-fit-cover">
-                    <video class="w-75" :src="uiuxDetails.video" autoplay muted controls></video>
+                    <video class="w-50" :src="uiuxDetails.video" autoplay muted controls></video>
                 </div>
             </div>
         </div>
         <div class="row mb-5">
             <div class="col"> 
                 <span class="fs-3 fw-bold opacity-25">01</span>
-                <p class="fs-4 fw-semibold">Tools</p>
+                <p class="fs-4 fw-semibold color-font-tools">Tools</p>
                 <div class="border-bottom mb-2 opacity-25"></div>
                 <div class="first-font-name">
                     <p class="m-0 fs-4 text-capitalize">{{ uiuxDetails.tools[0] }}</p>
@@ -27,6 +27,12 @@ import uiuxItems from '../stores/uiuxItems';
 export default {
 
     computed: {
+        video() {
+            return this.uiuxDetails.video[0]
+        },
+        tools() {
+            return this.uiuxDetails.tools[0]
+        },
         ...mapState(uiuxItems ,["uiuxDetails"]),
     },
 
