@@ -109,6 +109,8 @@ import colorPhoto3 from "../assets/img/img-uiux/photo-share/colorPhoto3.jpg"
 // Abstract Design
 import abstractDesign from "../assets/img/img-uiux/abstractDesign/abstractDesign.jpg"
 import abstractDesignV from "../assets/img/img-uiux/abstractDesign/abstractDesignV.mp4"
+import carousel from "../assets/img/img-uiux/switch/carousel.jpg"
+import carouselV from "../assets/img/img-uiux/switch/carouselV.mp4"
 import darkMode from "../assets/img/img-uiux/switch/darkMode.jpg"
 import darkModeV from "../assets/img/img-uiux/switch/darkModeV.mp4"
 
@@ -262,7 +264,7 @@ export default {
             {
                 id: 6,
                 image: photoShare1,
-                nameProject: "Share Photo App",
+                nameProject: "Photo Share App",
                 carouselItems: [
                     photoShare1,
                     photoShare2,
@@ -287,16 +289,24 @@ export default {
                 ],
             },
         ],
+        
         uiuxVideos: [
             {
                 id: '1v',
+                image: carousel,
+                nameProject: "Carousel animation",
+                video: carouselV,
+                tools: ["Adobe XD"]
+            },
+            {
+                id: '2v',
                 image: abstractDesign,
                 nameProject: "Abstract Design",
                 video: abstractDesignV,
                 tools: ["Adobe XD"]
             },
             {
-                id: '2v',
+                id: '3v',
                 image: darkMode,
                 nameProject: "Switch Dark Mode and Counter Button",
                 video: darkModeV,

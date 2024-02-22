@@ -1,1 +1,0 @@
-import{i as s}from"./index-2f555c24.js";const i=s("uiuxItems",{state:()=>({uiuxDetails:[]}),getters:{},actions:{showProjectDetails(t){this.uiuxDetails=t},showProjectDetails(t){this.uiuxDetails=t}}});export{i as u};
