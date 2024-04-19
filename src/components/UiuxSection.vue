@@ -109,10 +109,21 @@ import colorPhoto3 from "../assets/img/img-uiux/photo-share/colorPhoto3.jpg"
 // Abstract Design
 import abstractDesign from "../assets/img/img-uiux/abstractDesign/abstractDesign.jpg"
 import abstractDesignV from "../assets/img/img-uiux/abstractDesign/abstractDesignV.mp4"
+
 import carousel from "../assets/img/img-uiux/switch/carousel.jpg"
 import carouselV from "../assets/img/img-uiux/switch/carouselV.mp4"
+
 import darkMode from "../assets/img/img-uiux/switch/darkMode.jpg"
 import darkModeV from "../assets/img/img-uiux/switch/darkModeV.mp4"
+
+import cupcakeSlider from "../assets/img/img-uiux/switch/cupcakeSlider.jpg"
+import cupcakeSliderV from "../assets/img/img-uiux/switch/cupcakeSliderV.mp4"
+
+import toggleButton from "../assets/img/img-uiux/switch/toggleButton.jpg"
+import toggleButtonV from "../assets/img/img-uiux/switch/toggleButtonV.mp4"
+
+import signUpPage from "../assets/img/img-uiux/switch/signUpPage.jpg"
+import signUpPageV from "../assets/img/img-uiux/switch/signUpPageV.mp4"
 
 export default {
 
@@ -301,7 +312,7 @@ export default {
             {
                 id: '2v',
                 image: abstractDesign,
-                nameProject: "Abstract Design",
+                nameProject: "Abstract Designs",
                 video: abstractDesignV,
                 tools: ["Adobe XD"]
             },
@@ -310,6 +321,27 @@ export default {
                 image: darkMode,
                 nameProject: "Switch Dark Mode and Counter Button",
                 video: darkModeV,
+                tools: ["Adobe XD"]
+            },
+            {
+                id: '4v',
+                image: cupcakeSlider,
+                nameProject: "Cupcake Slider Design",
+                video: cupcakeSliderV,
+                tools: ["Adobe XD"]
+            },
+            {
+                id: '5v',
+                image: toggleButton,
+                nameProject: "Toggle Button Design",
+                video: toggleButtonV,
+                tools: ["Adobe XD"]
+            },
+            {
+                id: '6v',
+                image: signUpPage,
+                nameProject: " Authentication UI Animation (Sign Up and Login Page)",
+                video: signUpPageV,
                 tools: ["Adobe XD"]
             },
         ],
